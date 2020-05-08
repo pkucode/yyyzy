@@ -3,3 +3,8 @@
 
 
 请求部分脚本fork了https://github.com/Kaffaljidhmah2/pku_epidemic的代码
+
+食用方法：
+最好有个服务器或者不停机的电脑，
+把后在终端打开main.py所在文件夹 nohup python main.py &
+
