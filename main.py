@@ -116,7 +116,7 @@ def auto():
    
 
 scheduler = BlockingScheduler()
-
+scheduler = BlockingScheduler(timezone="Asia/Shanghai")#根据HamiltonHuaji提供的建议修改。可解决时区报错问题
 #每天凌晨零点自动填写，前提是程序一直运行
 scheduler.add_job(auto, 'cron', day_of_week='0-6', hour=0,minute=0)
 
